@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Nalam",
+    "slug": "nalam",
+    "scheme": "nalam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router", "expo-secure-store", "expo-web-browser"],
+    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#16a34a" },
+    "android": {
+      "package": "app.nalam.android",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#16a34a",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "ios": { "bundleIdentifier": "app.nalam.ios", "supportsTablet": true },
+    "web": { "favicon": "./assets/favicon.png" },
+    "extra": {
+      "apiUrl": "http://10.0.2.2:4000",
+      "googleAndroidClientId": "",
+      "googleWebClientId": ""
+    }
+  }
+}
